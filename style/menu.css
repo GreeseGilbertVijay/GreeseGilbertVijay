@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Rozha+One&display=swap');
+
+.menu-body {
+    font-family:'Edu+AU+VIC+WA+NT+Hand';
+    display: flex;
+    width:100%;
+    flex-direction:column;
+    justify-content: center;
+    background-color:#32323e;
+    align-items:center;
+    height: 100px;
+    z-index: 999;
+}
+.header {
+    display: flex;
+    width: 1366px;
+    justify-content: space-between;
+    align-items: center;
+    color:#c8c8d4;
+    position: relative;
+    padding:0 25px 0 25px;
+}
+.logo {
+    font-size: 1.5em;
+    display:flex;
+    align-items:center;
+    color:#c8c8d4;
+}
+h1{
+color:#c8c8d4;
+font-family: 'Oswald';
+}
+.nav {
+    flex-grow: 1;
+    text-align: center;
+    font-family:'Montserrat';
+}
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    font-family:'Montserrat';
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 18px;
+    justify-content: center;
+}
+.menu li {
+    margin: 0 15px;
+    position: relative;
+    font-family:'Montserrat';
+}
+.menu a {
+    color: #c8c8d4;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    font-family:'Montserrat';
+}
+.profile-view {
+    margin-left: auto;
+    display: flex;
+    gap: 25px;
+}
+
+.profile-img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.menu-toggle {
+    display: none;
+    background: none;
+    border: none;
+    color: #232323;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+.close-btn {
+    display: none;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    color: red;
+    font-size: 2em;
+    cursor: pointer;
+}
+.overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+}
+@media (max-width:1024px) {
+    .nav {
+        display: block;
+        position: fixed;
+        top: 0;
+        left: -90%;
+        width: 90%;
+        height: 100%;
+        background-color: #FBFBFB;
+        z-index: 1000;
+        transition: left 0.3s ease;
+        padding-top: 60px;
+        text-align: left;
+    }
+    .menu-body {
+        height: 10vh;
+    }
+    .header {
+        width:100%;
+        padding: 0px 10px;
+    }
+    .logo{
+    width:100px;
+    }
+    .profile-view button {
+        display: none;
+    }
+    .profile-view .profile-img {
+        margin-right: 15px;
+    }
+    .nav.active {
+        left: 0;
+    }
+    .menu {
+        flex-direction: column;
+        align-items: flex-start;
+        padding-left: 20px;
+        gap: 0;
+        width: 80%;
+    }
+    .menu li {
+        width: 80%;
+        padding: 10px 0;
+    }
+    .menu a {
+        width: 80%;
+    }
+    .menu-toggle {
+        display: block;
+    }
+    .close-btn {
+        display: block;
+    }
+    .overlay.active {
+        display: block;
+    }
+}
+
+@media (max-width:460px){
+    .menu{
+        width: 300px;
+    }
+}

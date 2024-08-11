@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Rozha+One&display=swap');
+
+.sites-body {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #282832;
+  }
+  .sites-body .main {
+    width: 1336px;
+    text-align: center;
+    height: auto;
+    display: block;
+  }
+  .sites-body h1{
+    margin-bottom: 32px;
+    font-size: 42px;
+    font-family: 'Oswald';
+  }
+  .sites-body .marquee{
+      display: flex;
+      flex-direction: row;
+      background-color: red;
+      justify-content: space-between;
+  }
+  .mark{
+    width: 1366px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .sites-body .site-image{
+    width: 200px;
+  }
+
+  @media(max-width:1440px){
+    .sites-body .main {
+      width:90%;
+      padding: 15px;
+      height: 250px;
+    }
+    .sites-body .site-image{
+      width: 100px;
+    }
+    .sites-body h1{
+      font-size: 28px;
+    }
+    }
+
+  @media(max-width:480px){
+    .sites-body h1{
+      font-size: 24px;
+    }
+    }
