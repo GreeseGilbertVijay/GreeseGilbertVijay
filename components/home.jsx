@@ -63,7 +63,7 @@ export const Home = () => {
             <p>I&apos;m an experienced Web Developer specializing in React and WordPress, with about 1.5 years of experience. I build websites and web apps that work well on different devices using tools like React.js, Next.js, WordPress, HTML, CSS, JavaScript, Bootstrap, and Tailwind CSS.</p>
           </div>
           <div className='home-vijay'>
-            <div className='square-container'>
+            <div >
               <div className='square'><TiHtml5/></div>
               <div className='square'><IoLogoReact/></div>
               <div className='square'><RiNextjsLine/></div>

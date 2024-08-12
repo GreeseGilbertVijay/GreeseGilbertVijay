@@ -132,10 +132,9 @@ p{
     .home{
         width: 100%;
         height:auto;
-        display: flex;
+        grid-template-columns: 65% 35%;
         padding: 25px;
         padding-bottom: 100px;
-        justify-content: space-between;
     }
     .home h2{
         font-size: 28px;
@@ -160,6 +159,7 @@ p{
 
 @media(max-width:480px){
     .home{
+        overflow-x: hidden;
         display: flex;
         flex-direction: column;
         gap: 20px;
@@ -213,18 +213,10 @@ p{
         position: relative;
         display: inline; 
         }
-        .square-container {
-        display: block;
-        position: absolute;
-        bottom: -400px;
-        left:90%;
-        transform: translate(-50%, -50%);
-        width: 300px; /* Set according to your image size */
-        height: 300px; /* Set according to your image size */
-        z-index: -1;
-      }
       
       .square {
+        left: 50%;
+        bottom: -20%;
         position: absolute;
         border-radius: 50%;
         animation: rotate 10s linear infinite;
