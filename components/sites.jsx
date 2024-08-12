@@ -10,6 +10,7 @@ import scream from '../images/scream.png';
 import taxkey from '../images/taxkey.png';
 import treona from '../images/treona.png';
 import emerge from '../images/emeregetech.png';
+import coach from '../images/coach.png';
 
 const Sites = () => {
 
@@ -17,7 +18,7 @@ const Sites = () => {
     <div className="sites-body">
       <div className="main">
         <h1>My Developed Sites</h1>
-        <marquee>
+        <marquee loop="infinite" direction="left" behavior="scroll">
           <div className='mark'>
             <Image width={200} height={100} className='site-image' src={cake} alt="Cake" />
             <Image width={200} height={100} className='site-image' src={magik} alt="Magik" />
@@ -29,6 +30,7 @@ const Sites = () => {
             <Image width={200} height={100} className='site-image' src={taxkey} alt="taxkey" />
             <Image width={200} height={100} className='site-image' src={treona} alt="treona" />
             <Image width={200} height={100} className='site-image' src={emerge} alt="emerge" />
+            <Image width={200} height={100} className='site-image' src={coach} alt="coach" />
           </div>
         </marquee>
       </div>
