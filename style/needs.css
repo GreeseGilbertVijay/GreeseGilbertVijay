@@ -189,16 +189,17 @@
       width: 90%;
     }
     .dropdown-header {
-      width: 300px;
+      width: 100%;
     }
     .dropdown-content {
-      width: 300px;
+      width: 100%;
       padding: 5px;
       padding-top: 0px;
     }
     .drop-downs p{
       font-size: 16px;
-      color: #282832;
+      color: #fff;
+      padding-left: 5px;
       width: 280px;
     }
     
