@@ -24,11 +24,11 @@ const Sites = () => {
             <Image width={200} height={100} className='site-image' src={renovar} alt="Renovar" />
             <Image width={200} height={100} className='site-image' src={simta} alt="Simta" />
             <Image width={200} height={100} className='site-image' src={vendorsgo} alt="VendorsGo" />
-            <Image width={200} height={100} className='site-image' src={cake} alt="Cake" />
-            <Image width={200} height={100} className='site-image' src={magik} alt="Magik" />
-            <Image width={200} height={100} className='site-image' src={renovar} alt="Renovar" />
-            <Image width={200} height={100} className='site-image' src={simta} alt="Simta" />
-            <Image width={200} height={100} className='site-image' src={vendorsgo} alt="VendorsGo" />
+            <Image width={200} height={100} className='site-image' src={onesight} alt="onesight" />
+            <Image width={200} height={100} className='site-image' src={scream} alt="scream" />
+            <Image width={200} height={100} className='site-image' src={taxkey} alt="taxkey" />
+            <Image width={200} height={100} className='site-image' src={treona} alt="treona" />
+            <Image width={200} height={100} className='site-image' src={emerge} alt="emerge" />
           </div>
         </marquee>
       </div>
