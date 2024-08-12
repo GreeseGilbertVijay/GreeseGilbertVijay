@@ -10,8 +10,6 @@ import Form from "../../components/form";
 import Sites from "../../components/sites";
 
 const Header = () => {
-
-
     return (
         <div className='flex flex-col justify-center items-center' >
         <Menu/>
