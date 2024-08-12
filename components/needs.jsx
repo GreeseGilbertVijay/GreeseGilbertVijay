@@ -1,10 +1,8 @@
 import React, { useState } from 'react';
 import { FaChevronDown } from 'react-icons/fa';
-import UI from '../images/UI.png';
-import Res from '../images/Res.png';
-import Maintenance from '../images/Maintenance.png';
-import Image from 'next/image';
-import Link from "next/link";
+import { FaWordpress } from "react-icons/fa6";
+import { CgWebsite } from "react-icons/cg";
+import { FaShopify  } from "react-icons/fa";
 
 
 const OverviewDropdown = ({ heading, children, icon }) => {
@@ -54,16 +52,20 @@ export const Needs = () => {
 
         <div className='drop-downs'>
           <div>
-            <OverviewDropdown heading="UI/UX" icon={<Image className='needs-image' src={UI} alt="" />}>
-              <p>Crafting visually appealing and intuitive interfaces that enhance user
-                 interaction and satisfaction.</p>
+            <OverviewDropdown heading="Wordpress" icon={<FaWordpress color='#1f7196' size={28}/>}>
+              <p>Have experience in developing websites with WordPress, focusing on creating customizable and feature-rich sites.
+                 They have built and maintained a variety of WordPress sites, from simple blogs to complex e-commerce platforms, utilizing plugins and
+                  custom themes to enhance functionality.
+                 </p>
             </OverviewDropdown>
-            <OverviewDropdown heading="Responsive Design" icon={<Image className='needs-image' src={Res} alt="React Js" />}>
-              <p> Ensuring your website adapts seamlessly to different screen sizes and devices, 
-                including tablets and smartphones.</p>
+            <OverviewDropdown heading="Web Applications" icon={<CgWebsite color='red' size={28}/>}>
+              <p> Creating scalable, high-performance applications with a focus on user experience and responsiveness. 
+                By leveraging modern technologies like Next.js, React.js,
+                 and Tailwind CSS and deliver solutions that are both visually appealing and functionally efficient across all devices.</p>
             </OverviewDropdown>
-            <OverviewDropdown heading="Website Maintenance" icon={<Image  className='needs-image' src={Maintenance} alt="Next Js" />}>
-              <p>Making sure site performs efficiently and plugin updates solve the error logs.</p>
+            <OverviewDropdown heading="Shopify" icon={<FaShopify color='#90b943' size={28}/>}>
+              <p>Developed and customized Shopify stores, tailoring e-commerce solutions to meet specific business needs. They have implemented unique themes,
+                 integrated third-party apps, and optimized online stores for a seamless shopping experience. </p>
             </OverviewDropdown>
           </div>
         </div>

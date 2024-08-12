@@ -1,10 +1,10 @@
 import React from 'react';
 import Image from 'next/image';
 import vijay from '../images/vijay.png';
-import react from '../images/1.png';
-import git from '../images/2.png';
-import Next from '../images/3.png';
-import Linked from '../images/4.png';
+import wordpress from '../images/wordpresslogo.png';
+import shopify from '../images/shopifylogo.png';
+import nextjs from '../images/nextjslogo.png';
+import github from '../images/gitlogo.png';
 import { TiHtml5 } from "react-icons/ti";
 import { IoLogoReact } from "react-icons/io5";
 import { RiNextjsLine } from "react-icons/ri";
@@ -25,10 +25,10 @@ export const Logo = () => {
         <Image width={400} height={400} className='vijay' src={vijay} alt="image" />
       </div>
       <div className='work-images'>
-        <Image className='work-icons' alt='icons' src={react} />
-        <Image className='work-icons' alt='icons' src={git} />
-        <Image className='work-icons' alt='icons' src={Next} />
-        <Image className='work-icons' alt='icons' src={Linked} />
+        <Image className='work-icons' alt='icons' src={wordpress} />
+        <Image className='work-icons' alt='icons' src={shopify} />
+        <Image className='work-icons' alt='icons' src={nextjs} />
+        <Image className='work-icons' alt='icons' src={github} />
       </div>
     </div>
   );

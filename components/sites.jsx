@@ -15,9 +15,9 @@ import coach from '../images/coach.png';
 const Sites = () => {
 
   return (
-    <div className="sites-body">
+    <div id='sites' className="sites-body">
       <div className="main">
-        <h1>My Developed Sites</h1>
+        <h1>Some of My Developed Sites</h1>
         <marquee loop="infinite" direction="left" behavior="scroll">
           <div className='mark'>
             <Image width={200} height={100} className='site-image' src={cake} alt="Cake" />

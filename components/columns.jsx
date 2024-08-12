@@ -20,14 +20,6 @@ export const Columns = () => {
         <div className="columns-box">
         <CiShop className='column-icons' />
         <h3>E-Commerce</h3>
-        <p>Created the individual website to share personal information,
-           blogs, hobbies, portfolios and contact details.
-        </p>
-        </div>
-
-        <div className="columns-box">
-        <RiReactjsFill className='column-icons'/>
-        <h3>React Js</h3>
         <p>The website stores where products or services
            are sold directly to consumers.Detailed descriptions, images, prices,
             and specifications of products or services.
@@ -35,26 +27,34 @@ export const Columns = () => {
         </div>
 
         <div className="columns-box">
+        <RiReactjsFill className='column-icons'/>
+        <h3>React Js</h3>
+        <p>Work with React.js emphasizes a clean and maintainable codebase,components,styles,
+          resulting in highly performant and user-friendly applications.
+        </p>
+        </div>
+
+        <div className="columns-box">
         <RiNextjsLine  className='column-icons'/>
         <h3>Next Js</h3>
-        <p>Single web pages designed for a specific marketing campaign,
-           often used to capture leads or promote a product or service.
+        <p>Built dynamic, responsive applications with a focus on performance and user experience. 
+          By utilizing Next.js, they ensure server-side rendering and optimized static generation, resulting in fast and efficient websites
         </p>
         </div>
 
         <div className="columns-box">
         <PiFigmaLogo className='column-icons'/>
         <h3>UI/UX Development</h3>
-        <p>I will take care of the UI/UX design and make sure it works well on mobile devices.
-           My goal is to create a user-friendly experience that
-           looks great and functions smoothly on all screens.</p>
+        <p>"I will handle the UI/UX design, ensuring it works seamlessly on mobile devices. 
+          My aim is to create a user-friendly experience that not only looks great
+           but also functions smoothly across all screen sizes."</p>
         </div>
 
         <div className="columns-box">
         <RiBloggerLine className='column-icons'/>
         <h3>Blog / Landing Pages</h3>
-        <p>Create the single page for your blogs and Landing pages. Add meta descriptions
-          featured images alt text for images.
+        <p>  Created the individual website to share personal information,
+        blogs, hobbies, portfolios and contact details.
         </p>
         </div>
         
