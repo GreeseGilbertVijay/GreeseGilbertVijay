@@ -83,8 +83,8 @@ export const Home = () => {
             View More <FaArrowRightLong className='arrow-icons' />
           </Link>
           <div className='social-icons'>
-            <Link href="https://www.facebook.com/profile.php?id=100095339317250&mibextid=ZbWKwL"><FaFacebookF className='my-icons' /></Link>
             <Link href="https://www.instagram.com/greesegilbertvijay/"><FaInstagram className='my-icons' /></Link>
+            <Link href="https://www.facebook.com/profile.php?id=100095339317250&mibextid=ZbWKwL"><FaFacebookF className='my-icons' /></Link>
           </div>
         </div>
       </div>
