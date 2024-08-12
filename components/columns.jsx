@@ -45,9 +45,9 @@ export const Columns = () => {
         <div className="columns-box">
         <PiFigmaLogo className='column-icons'/>
         <h3>UI/UX Development</h3>
-        <p>"I will handle the UI/UX design, ensuring it works seamlessly on mobile devices. 
+        <p>I will handle the UI/UX design, ensuring it works seamlessly on mobile devices. 
           My aim is to create a user-friendly experience that not only looks great
-           but also functions smoothly across all screen sizes."</p>
+           but also functions smoothly across all screen sizes.</p>
         </div>
 
         <div className="columns-box">
