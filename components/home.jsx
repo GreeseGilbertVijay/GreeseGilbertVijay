@@ -2,9 +2,7 @@
 import React from 'react';
 import { FaArrowRightLong } from "react-icons/fa6";
 import { FaFacebookF } from "react-icons/fa";
-import { FaXTwitter } from "react-icons/fa6";
 import { FaInstagram } from "react-icons/fa6";
-import banner from '../images/banner.png';
 import Image from 'next/image';
 import vijay from '../images/vijay.png';
 import Link from "next/link";
