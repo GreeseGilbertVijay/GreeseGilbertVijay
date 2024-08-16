@@ -6,12 +6,10 @@ import { MdEmojiObjects } from "react-icons/md";
 import { FaLinkedinIn } from "react-icons/fa6";
 import { AiOutlineMenuFold } from "react-icons/ai";
 import { IoMdCloudDownload } from "react-icons/io";
-import resume from '../images/Greese gilbert vijay.png';
-
-
+import Image from 'next/image';
+import resume from '../images/Greese_gilbert_vijay.png';
 
 const Menu = () => {
-
     useEffect(() => {
         const menuToggle = document.getElementById('menu-toggle') as HTMLButtonElement;
         const closeBtn = document.getElementById('close-btn') as HTMLButtonElement;
@@ -36,12 +34,12 @@ const Menu = () => {
 
     const handleDownload = () => {
         const link = document.createElement('a');
-        link.href = resume; // Use the imported image as the href
+        link.href = resume.src; // Use the Image src as the href
         link.download = 'Greese_gilbert_vijay.png'; // The name of the file after downloading
         document.body.appendChild(link);
         link.click();
         document.body.removeChild(link);
-      };
+    };
 
     return (
         <>
@@ -49,12 +47,9 @@ const Menu = () => {
                 <div className="header">
                     <div className="logo">
                         <Link href="/">
-                        <MdEmojiObjects style={{
-                          color:'yellow',
-                          fontSize:'24px'}} />
+                            <MdEmojiObjects style={{ color: 'yellow', fontSize: '24px' }} />
                         </Link>
-                        <Link  href="/"><h1>Greese</h1></Link>
-                        
+                        <Link href="/"><h1>Greese</h1></Link>
                     </div>
                     <nav className="nav" id="nav">
                         <button className="close-btn" id="close-btn">×</button>
@@ -65,18 +60,16 @@ const Menu = () => {
                             <li><Link href="#contact">Contact</Link></li>
                         </ul>
                     </nav>
-                    <div className="profile-view">                       
-                            <>
-                              <button onClick={handleDownload}>Download Resume <IoMdCloudDownload/></button>
-                                <button><Link href="https://www.linkedin.com/in/greese-vijay-73516a218/"><FaLinkedinIn /></Link></button>
-                            </>
+                    <div className="profile-view">
+                        <button onClick={handleDownload}>Download Resume <IoMdCloudDownload /></button>
+                        <button><Link href="https://www.linkedin.com/in/greese-vijay-73516a218/"><FaLinkedinIn /></Link></button>
                     </div>
                     <button className="menu-toggle" id="menu-toggle"><AiOutlineMenuFold /></button>
                     <div className="overlay" id="overlay"></div>
                 </div>
             </header>
             <style jsx>{`
-             
+                /* Add your styles here */
             `}</style>
         </>
     );
