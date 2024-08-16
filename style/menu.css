@@ -97,6 +97,14 @@ font-family: 'Oswald';
     background: rgba(0, 0, 0, 0.5);
     z-index: 999;
 }
+.resume{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.tab-mobile-resume{
+    display: none;
+}
 @media (max-width:1024px) {
     .nav {
         display: block;
@@ -153,10 +161,17 @@ font-family: 'Oswald';
     .overlay.active {
         display: block;
     }
+    .tab-mobile-resume{
+      display: block;
+      margin-right: 20px;
+     }
 }
 
 @media (max-width:460px){
     .menu{
         width: 300px;
+    }
+    .tab-mobile-resume{
+       margin-right: 20px;
     }
 }

@@ -3,6 +3,8 @@ import emailjs from 'emailjs-com';
 import Link from "next/link";
 import { FaFacebookF } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa6";
+import { FaLinkedinIn } from "react-icons/fa6";
+
 
 emailjs.init("QzQv1OtT9eLkddKXM");
 
@@ -47,6 +49,7 @@ const Form = () => {
               <div className='social-media'>
               <Link href="https://www.instagram.com/greesegilbertvijay/"><FaInstagram size={30} className='my-icons' /></Link>
               <Link href="https://www.facebook.com/profile.php?id=100095339317250&mibextid=ZbWKwL"><FaFacebookF size={30} className='my-icons' /></Link>
+              <Link href="https://www.linkedin.com/in/greese-vijay-73516a218/"><FaLinkedinIn size={30} className='my-icons' /></Link>
             </div>
             </div>
         </div>

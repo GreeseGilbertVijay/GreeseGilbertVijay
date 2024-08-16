@@ -60,9 +60,10 @@ const Menu = () => {
                         </ul>
                     </nav>
                     <div className="profile-view">
-                        <button onClick={handleDownload}>Download Resume <IoMdCloudDownload /></button>
+                        <button className='resume' onClick={handleDownload}>Download Resume <IoMdCloudDownload /></button>
                         <button><Link href="https://www.linkedin.com/in/greese-vijay-73516a218/"><FaLinkedinIn /></Link></button>
                     </div>
+                    <button className='tab-mobile-resume' onClick={handleDownload}><IoMdCloudDownload size={24} /></button>
                     <button className="menu-toggle" id="menu-toggle"><AiOutlineMenuFold /></button>
                     <div className="overlay" id="overlay"></div>
                 </div>
