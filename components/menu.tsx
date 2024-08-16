@@ -5,6 +5,10 @@ import Link from 'next/link';
 import { MdEmojiObjects } from "react-icons/md";
 import { FaLinkedinIn } from "react-icons/fa6";
 import { AiOutlineMenuFold } from "react-icons/ai";
+import { IoMdCloudDownload } from "react-icons/io";
+import resume from '../images/Greese gilbert vijay.png';
+
+
 
 const Menu = () => {
 
@@ -30,6 +34,15 @@ const Menu = () => {
         };
     }, []);
 
+    const handleDownload = () => {
+        const link = document.createElement('a');
+        link.href = resume; // Use the imported image as the href
+        link.download = 'Greese_gilbert_vijay.png'; // The name of the file after downloading
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+      };
+
     return (
         <>
             <header className="menu-body">
@@ -54,6 +67,7 @@ const Menu = () => {
                     </nav>
                     <div className="profile-view">                       
                             <>
+                              <button onClick={handleDownload}>Download Resume <IoMdCloudDownload/></button>
                                 <button><Link href="https://www.linkedin.com/in/greese-vijay-73516a218/"><FaLinkedinIn /></Link></button>
                             </>
                     </div>
