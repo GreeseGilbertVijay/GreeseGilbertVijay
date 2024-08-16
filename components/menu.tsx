@@ -6,8 +6,7 @@ import { MdEmojiObjects } from "react-icons/md";
 import { FaLinkedinIn } from "react-icons/fa6";
 import { AiOutlineMenuFold } from "react-icons/ai";
 import { IoMdCloudDownload } from "react-icons/io";
-import Image from 'next/image';
-import resume from '../images/Greese_gilbert_vijay.png';
+import resume from '../images/Greesegilbertvijay.png';
 
 const Menu = () => {
     useEffect(() => {
