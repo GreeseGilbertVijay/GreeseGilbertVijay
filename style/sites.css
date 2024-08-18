@@ -34,6 +34,14 @@
     width: 200px;
   }
 
+  @media(min-width:1440px){
+    .sites-body .main {
+      width:90%;
+      padding: 15px;
+      height: auto;
+      padding: 20px 0px 5% 0px ;
+    }
+  }
   @media(max-width:1440px){
     .sites-body .main {
       width:90%;

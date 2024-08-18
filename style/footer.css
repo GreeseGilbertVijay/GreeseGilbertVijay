@@ -11,8 +11,8 @@
     justify-content: center;
   }
 .footer{
-    width: 100%;
-    padding: 5%;
+    width: 1336px;
+    padding:5% 0 5% 0;
     display: flex;
     justify-content: space-between;
 }
@@ -22,8 +22,10 @@
 }
 @media (max-width:480px) {
     .footer{
+        width: 100%;
         flex-direction: column;
         gap: 30px;
+        padding: 5%;
     }
     .footer h1{
         font-size: 24px;
