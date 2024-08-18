@@ -5,14 +5,13 @@
     width: 100%;
     background-color: #373543;
     z-index: 0;
-    margin-top: -40px;
     display: flex;
     font-family: 'Oswald';
     justify-content: center;
   }
 .footer{
     width: 1336px;
-    padding:5% 0 5% 0;
+    padding:50px 0 50px 0;
     display: flex;
     justify-content: space-between;
 }
@@ -20,15 +19,25 @@
     font-size: 28px;
     font-weight: 800;
 }
-@media (max-width:480px) {
+@media (max-width:1024px) {
     .footer{
         width: 100%;
         flex-direction: column;
         gap: 30px;
-        padding: 5%;
     }
     .footer h1{
         font-size: 24px;
+    }
+}
+@media (max-width:480px) {
+    .footer{
+        width: 100%;
+        flex-direction: column;
+        gap: 20px;
+        padding: 10px 10px 20px 10px;
+    }
+    .footer p{
+        font-size: 16px;
     }
 }
 
