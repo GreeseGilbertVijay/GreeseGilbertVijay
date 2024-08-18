@@ -7,7 +7,7 @@ import {Logo} from "../../components/logo";
 import {Needs} from "../../components/needs";
 import {Columns} from "../../components/columns";
 import Sites from "../../components/sites";
-import {Footer} from "../../components/footer";
+// import {Footer} from "../../components/footer";
 
 
 const Header = () => {
@@ -19,7 +19,7 @@ const Header = () => {
          <Needs/>
          <Columns/>
          <Sites/>
-         <Footer/>
+         {/* <Footer/> */}
         </div>
     );
 };
