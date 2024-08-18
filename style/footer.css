@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Rozha+One&display=swap');
+
+/* Main Container */
+.footer-body{
+    width: 100%;
+    background-color: #373543;
+    z-index: 0;
+    margin-top: -40px;
+    display: flex;
+    font-family: 'Oswald';
+    justify-content: center;
+  }
+.footer{
+    width: 100%;
+    padding: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.footer h1{
+    font-size: 28px;
+    font-weight: 800;
+}
+@media (max-width:480px) {
+    .footer{
+        flex-direction: column;
+        gap: 30px;
+    }
+    .footer h1{
+        font-size: 24px;
+    }
+}
+

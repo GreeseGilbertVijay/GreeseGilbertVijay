@@ -56,7 +56,7 @@ const Menu = () => {
                             <li><Link href="#needs">About</Link></li>
                             <li><Link href="#columns">Skills</Link></li>
                             <li><Link href="#sites">My Works</Link></li>
-                            <li><Link href="#contact">Contact</Link></li>
+                            <li><Link href="/contact">Contact</Link></li>
                         </ul>
                     </nav>
                     <div className="profile-view">

@@ -8,6 +8,8 @@ import "../../style/needs.css";
 import "../../style/column.css";
 import "../../style/form.css";
 import "../../style/sites.css";
+import "../../style/footer.css";
+
 
 const inter = Inter({ subsets: ["latin"] });
 
