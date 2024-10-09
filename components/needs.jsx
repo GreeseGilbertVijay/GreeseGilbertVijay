@@ -32,11 +32,7 @@ export const Needs = () => {
       <div className='your-needs'>
         <div className='needs'>
           <h2>What can I do for<br /> your Needs</h2>
-          <p>As a web developer, I specialize in creating
-             responsive and user-friendly websites and projects.
-              I ensure that your websites are optimized for
-              both desktop and mobile devices, providing an
-              exceptional user experience across all platforms.
+          <p>As a web developer, I specialize in crafting responsive and user-friendly websites that prioritize an exceptional user experience. I ensure that all projects are optimized for both desktop and mobile devices, delivering seamless functionality across platforms. 
           </p>
           <div className='completed'>
             <div className="">

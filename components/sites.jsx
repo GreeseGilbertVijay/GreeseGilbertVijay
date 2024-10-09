@@ -11,6 +11,10 @@ import taxkey from '../images/taxkey.png';
 import treona from '../images/treona.png';
 import emerge from '../images/emeregetech.png';
 import coach from '../images/coach.png';
+import wonchance from '../images/wonchance.png';
+import pravda from '../images/pravda.png';
+import associates from '../images/associates.png';
+import matchframe from '../images/matchframe.png';
 
 const Sites = () => {
 
@@ -20,6 +24,7 @@ const Sites = () => {
         <h1>Some of My Developed Sites</h1>
         <marquee loop="infinite" direction="left" behavior="scroll">
           <div className='mark'>
+            <Image width={200} height={100} className='site-image' src={wonchance} alt="Cake" />
             <Image width={200} height={100} className='site-image' src={cake} alt="Cake" />
             <Image width={200} height={100} className='site-image' src={magik} alt="Magik" />
             <Image width={200} height={100} className='site-image' src={renovar} alt="Renovar" />
@@ -31,6 +36,9 @@ const Sites = () => {
             <Image width={200} height={100} className='site-image' src={treona} alt="treona" />
             <Image width={200} height={100} className='site-image' src={emerge} alt="emerge" />
             <Image width={200} height={100} className='site-image' src={coach} alt="coach" />
+            <Image width={200} height={100} className='site-image' src={matchframe} alt="coach" />
+            <Image width={200} height={100} className='site-image' src={associates} alt="coach" />
+            <Image width={200} height={100} className='site-image' src={pravda} alt="coach" />
           </div>
         </marquee>
       </div>

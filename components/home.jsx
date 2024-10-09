@@ -58,7 +58,7 @@ export const Home = () => {
             <h1>Greese Gilbert Vijay</h1>
             <hr className='hr mb-2' />
             <h3>{displayedText}<span className='cursor'>|</span></h3>
-            <p>I&apos;m an experienced Web Developer specializing in React and WordPress, with about 1.5 years of experience. I build websites and web apps that work well on different devices using tools like React.js, Next.js, WordPress, HTML, CSS, JavaScript, Bootstrap, and Tailwind CSS.</p>
+            <p>I&apos;m an experienced Web Developer specializing in React and WordPress. I have built websites and web apps that work well on different devices using tools like React.js, Next.js, WordPress, HTML, CSS, JavaScript, Bootstrap, and Tailwind CSS.</p>
           </div>
           <div className='home-vijay'>
             <div >
@@ -76,7 +76,7 @@ export const Home = () => {
 
         <div className='details-info'>
           <h3>Services</h3>
-          <h4>Let&apos;s build quality websites and web applications<br />and designs.</h4>
+          <h4>Let&apos;s build quality websites and web applications<br />with aesthetic designs.</h4>
           <Link href="#columns" className='button'>
             View More <FaArrowRightLong className='arrow-icons' />
           </Link>

@@ -28,6 +28,7 @@
   .mark{
     width: 1366px;
     display: flex;
+    gap: 15px;
     justify-content: space-between;
   }
   .sites-body .site-image{
